@@ -8,6 +8,11 @@
     .about-containers {
         flex-wrap: wrap;
     }
+
+    .btn-container {
+        margin-bottom: 2rem;
+    }
+
 }
 
 
@@ -22,6 +27,7 @@
 
     #experience, .experience-details-container {
         margin-top: 2rem;
+        
     }
 
     #profile, .section-container {
@@ -37,7 +43,7 @@
     }
 
     section {
-        margin: 0 5%;
+        margin: 5% 5%;
     }
 
     .section__pic-container {
@@ -49,21 +55,23 @@
     .about-containers { 
         margin-top: 0;
     }
+
+    .btn-container {
+        margin-bottom: 2rem;
+    }
 }
 
 
 @media screen and (max-width:600px){
     #contact, footer {
         height: 40vh;
+        margin: 5% 5%;
+
     }
 
     #profile {
         height: 83vh;
         margin-bottom: 0;
-    }
-
-    article {
-        font-size: 1rem;
     }
 
     footer nav {
@@ -75,12 +83,14 @@
         flex-wrap: wrap;
     }   
 
+
+
     .contact-info-container {
-        margin: 0;
+        margin: 5%;
     }
 
     .contact-info-container p, .nav-links li a {
-        font-size: 1rem;
+        font-size: 2rem;
     }
 
     .experience-sub-title {
@@ -115,4 +125,79 @@
     .text-container {
         text-align: justify;
     }
+
+    .btn-container {
+        margin-bottom: 2rem;
+    }
+
+}
+
+
+.carousel-container {
+    margin-top: 1rem;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-slide {
+    display: flex;
+}
+
+.project-img {
+    display: none;
+    width: 100%;
+    height: auto;
+}
+
+.project-img.active {
+    display: block;
+}
+
+.prev-btn,
+.next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 10;
+}
+
+.prev-btn {
+    left: 10px;
+}
+
+.next-btn {
+    right: 10px;
+}
+
+#socials-container {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.icon {
+    height: 40px; 
+    width: auto;
+    margin-left: 10px; 
+    cursor: pointer;
+}
+
+.button-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.article-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

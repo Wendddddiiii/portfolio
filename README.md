@@ -2,4 +2,5 @@
 
 Welcome to my personal portfolio! This portfolio showcases my projects and serves as a modern version of my resume.
 
-Please view it here: https://portfolio-0307.netlify.app/
+Please view it here: https://portfolio-wenditang.netlify.app/
+
